@@ -50,3 +50,15 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Gdb Files
+.gdb_history
+
+# Deb package files
+*.deb
+
+# Any of the build folders created by the create_package.sh
+mopar_canbus_utils/
+
+# Any of the bin folders created by the makefiles
+bin/
